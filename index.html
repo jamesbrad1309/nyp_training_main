@@ -5,36 +5,71 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="sass/styles.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 
 <body class="container">
+<div class="row">
     <!-- Indicates a dangerous or potentially negative action -->
-    <button type="button" class="btn btn-danger">slider button (homepage only)</button> <br>
-
+    <button type="button" class="btn btn-danger btn-xl">slider button (homepage only)</button>
+    <br>
+</div>
+<div class="row">
+    <button type="button" class="btn btn-primary btn-lg">category button</button>
+    <br>
+</div>
+<div class="row">
     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-    <button type="button" class="btn btn-primary">Primary Button</button> <br>
-
+    <button type="button" class="btn btn-primary">Category Button</button>
+    <br>
+</div>
+<div class="row">
     <!-- Indicates a successful or positive action -->
-    <button type="button" class="btn btn-success">Primary-smaller</button> <br>
-
-    <!-- Contextual button for informational alert messages -->
-    <button type="button" class="btn btn-info">Secondary button</button> <br>
-
-    <button type="button" class="btn btn-info"><i class="fa fa-angle-left"></i></button> <br>
-    <button type="button" class="btn btn-info"><i class="fa fa-angle-left"></i></button> <br>
-
+    <button type="button" class="btn btn-primary btn-info">Primary-smaller</button>
+    <br>
+</div>
+<div class="row">
+    <div class="btn-group">
+        <button type="button" class="btn btn-info btn-icon-only"><i class="fa fa-angle-left"></i></button>
+        <button type="button" class="btn btn-info btn-icon-only"><i class="fa fa-angle-right"></i></button>
+    </div>
+</div>
+<div class="row">
     <!-- links -->
-    <a href="#">Link</a>
-
+    <a href="#">This is a link please get focus</a>
+</div>
+<div class="row">
     <!-- breadcrumb -->
     <ol class="breadcrumb">
         <li><a href="#">Home</a></li>
         <li><a href="#">About NYP</a></li>
         <li class="active"><a href="#">Achievements & Awards</a></li>
     </ol>
+</div>
+
+<div class="row">
+    <h1>Lorem ipsum dolor.</h1>
+    <h2>Lorem ipsum dolor sit amet.</h2>
+    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
+    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus!</h4>
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias cumque, dolor</h5>
+    <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci. Ab alias cumque, dolor consectetur adipisicing</h6>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="post">
+            <img src="image/test.png" alt=""/>
+            <div class="content">
+                <h4>Lorem ipsum dolor.</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cumque doloremque incidunt quae vitae. Aperiam consequatur laudantium obcaecati quam quos!</p>
+            </div>
+            <button type="button" class="btn btn-primary btn-lg">Read more</button>
+        </div>
+    </div>
+</div>
 </body>
 
 </html>
